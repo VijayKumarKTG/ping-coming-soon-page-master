@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: hsl(223, 87%, 63%);
+  --paleBlue: hsl(223, 100%, 88%);
+  --lightRed: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --darkBlue: hsl(209, 33%, 12%);
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+}
+
+.h1-text {
+  font-size: 25px;
+  color: var(--gray);
+}
+
+.h1-text span {
+  font-weight: 700;
+  color: var(--darkBlue);
+}
+
+.h2-text {
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.email {
+  border: 1px solid var(--paleBlue);
+  border-radius: 20px;
+  outline: none;
+  font-size: 12px;
+  color: var(--paleBlue);
+}
+
+.emailErr {
+  border-color: var(--lightRed);
+}
+
+.email:focus {
+  color: var(--darkBlue);
+}
+
+.error {
+  display: none;
+  color: var(--lightRed);
+  font-size: 8px;
+  font-style: italic;
+  margin-top: -11px;
+}
+
+.button {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.icon {
+  border: 1px solid var(--paleBlue);
+  border-radius: 50%;
+  font-size: 15px;
+  color: var(--blue);
+}
+
+.copy-text {
+  font-size: 15px;
+  color: var(--gray);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 30% !important;
+  }
+
+  .h2-text {
+    margin-top: -45px;
+  }
+
+  #form {
+    position: relative;
+  }
+
+  .email {
+    width: 60% !important;
+  }
+
+  .error {
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+    left: -20%;
+  }
+
+  .button {
+    width: 20% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 20% !important;
+  }
+
+  .h1-text {
+    font-size: 35px;
+  }
+
+  .h2-text {
+    font-size: 20px;
+  }
+
+  .email {
+    font-size: 17px;
+  }
+
+  .button {
+    font-size: 15px;
+  }
+
+  #form,
+  #image {
+    width: 60%;
+  }
+}
