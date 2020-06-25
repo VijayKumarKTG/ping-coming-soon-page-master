@@ -132,12 +132,16 @@ body {
     width: 55% !important;
     font-size: 18px;
     border-radius: 30px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
   }
 
   .button {
     font-size: 15px;
     border-radius: 40px;
     width: 25% !important;
+    padding-top: 20px !important;
+    padding-bottom: 17px !important;
   }
 
   #form {
