@@ -140,7 +140,10 @@ body {
     width: 25% !important;
   }
 
-  #form,
+  #form {
+    width: 70%;
+  }
+
   #image {
     width: 60%;
   }
