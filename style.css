@@ -74,7 +74,7 @@ body {
 }
 
 .copy-text {
-  font-size: 15px;
+  font-size: 13px;
   color: var(--gray);
 }
 
@@ -117,11 +117,11 @@ body {
 
 @media screen and (min-width: 1024px) {
   .logo {
-    width: 20% !important;
+    width: 17% !important;
   }
 
   .h1-text {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .h2-text {
@@ -129,11 +129,15 @@ body {
   }
 
   .email {
-    font-size: 17px;
+    width: 55% !important;
+    font-size: 18px;
+    border-radius: 30px;
   }
 
   .button {
     font-size: 15px;
+    border-radius: 40px;
+    width: 25% !important;
   }
 
   #form,
